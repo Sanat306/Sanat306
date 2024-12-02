@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CSE-410</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="iphone">
+            <div class="logo-container">
+                <img src="./images/midwaylogo.PNG" alt="Midway University Logo">
+            </div>
+        <div class="screen">
+            <div class="login-container">
+                <h2>Welcome to CSE-410</h2>
+                <form id="loginForm">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Mobile Computing" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="cse410" required>
+                    <button type="submit">Login</button>
+					<div id="spinner" class="spinner"></div>
+                    <p id="error-message" class="error-message"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
